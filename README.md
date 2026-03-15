@@ -268,7 +268,7 @@ The full results including per-class metrics and training times are available in
 
 The transition from sparse statistical features to pre-trained GloVe embeddings accounts for the largest single performance gain in this study (+3.6 F1 points), representing the most fundamental shift in representational capacity. Full transformer fine-tuning with BERT and RoBERTa yields only a marginal additional improvement (+0.8 points) at substantially higher computational cost.
 
-For resource-constrained deployment, the Bidirectional GRU with GloVe-only embeddings (92.9% F1, 1.74 MB, no GPU required for inference) represents a near-optimal balance between performance and efficiency. The full analysis and discussion are available in the published paper under `references/PAPER.pdf`.
+For resource-constrained deployment, the Bidirectional GRU with GloVe-only embeddings (92.9% F1, 1.74 MB, no GPU required for inference) represents a near-optimal balance between performance and efficiency. The full analysis and discussion are available in the published paper under `documentationPaper/PAPER.pdf`.
 
 ---
 
